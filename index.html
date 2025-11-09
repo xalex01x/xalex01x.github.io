@@ -1,1 +1,187 @@
-<h1>WIP</h1>
+<!doctype html>
+<html lang="it">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>xalex01x — Repositories</title>
+    <style>
+        :root {
+            --bg: #0f1724;
+            --card: #0b1220;
+            --muted: #9aa4b2;
+            --accent: #58a6ff;
+            --glass: rgba(255, 255, 255, 0.02);
+            font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+        }
+
+        html,
+        body {
+            height: 100%;
+            margin: 0;
+            background: linear-gradient(180deg, #071026 0%, #081228 100%);
+            color: #e6eef6
+        }
+
+        .wrap {
+            max-width: 980px;
+            margin: 36px auto;
+            padding: 28px;
+            background: var(--card);
+            border-radius: 14px;
+            box-shadow: 0 6px 30px rgba(2, 6, 23, 0.6);
+        }
+
+        header {
+            display: flex;
+            align-items: center;
+            gap: 16px
+        }
+
+        .avatar {
+            width: 72px;
+            height: 72px;
+            border-radius: 10px;
+            background: var(--glass);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 700;
+            color: var(--muted)
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 1.6rem
+        }
+
+        p.lead {
+            color: var(--muted);
+            margin: 6px 0 18px
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 12px
+        }
+
+        .repo {
+            background: linear-gradient(180deg, rgba(255, 255, 255, 0.02), rgba(255, 255, 255, 0.01));
+            padding: 14px;
+            border-radius: 10px;
+            box-shadow: 0 4px 18px rgba(2, 6, 23, 0.5);
+            border: 1px solid rgba(255, 255, 255, 0.02)
+        }
+
+        .repo h3 {
+            margin: 0;
+            font-size: 1.05rem
+        }
+
+        .repo a {
+            color: var(--accent);
+            text-decoration: none
+        }
+
+        .meta {
+            color: var(--muted);
+            font-size: 0.85rem;
+            margin-top: 6px
+        }
+
+        footer {
+            margin-top: 18px;
+            color: var(--muted);
+            font-size: 0.9rem
+        }
+
+        .search {
+            margin-left: auto
+        }
+
+        @media (max-width:520px) {
+            .wrap {
+                margin: 12px;
+                padding: 16px
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <main class="wrap" role="main">
+        <header>
+            <div>
+                <h1>Progetti di xalex01x</h1>
+                <p class="lead">Elenco rapido dei repository pubblici</p>
+            </div>
+        </header>
+
+        <section class="grid" aria-label="Elenco repository">
+            <article class="repo">
+                <h3><a href="https://github.com/xalex01x/Chip-8" target="_blank" rel="noopener">Chip-8</a></h3>
+                <div class="meta">Linguaggio: C++</div>
+            </article>
+
+            <article class="repo">
+                <h3><a href="https://github.com/xalex01x/Commodore64" target="_blank" rel="noopener">Commodore64</a>
+                </h3>
+                <div class="meta">Linguaggio: C</div>
+            </article>
+
+            <article class="repo">
+                <h3><a href="https://github.com/xalex01x/xalex01x.github.io/tree/main/Tesi" target="_blank"
+                        rel="noopener">Tesi di laurea</a></h3>
+                <div class="meta">Linguaggio: LaTeX</div>
+            </article>
+
+            <article class="repo">
+                <h3><a href="https://github.com/xalex01x/SmartBuildings" target="_blank"
+                        rel="noopener">SmartBuildings</a></h3>
+                <div class="meta">Linguaggio: SQL</div>
+            </article>
+
+            <article class="repo">
+                <h3><a href="https://github.com/xalex01x/Laureandosi" target="_blank" rel="noopener">Laureandosi</a>
+                </h3>
+                <div class="meta">Linguaggio: PHP</div>
+            </article>
+
+            <article class="repo">
+                <h3><a href="https://github.com/xalex01x/Programmino-VLSM" target="_blank" rel="noopener">Programmino-VLSM</a></h3>
+                <div class="meta">Linguaggio: C</div>
+            </article>
+
+            <article class="repo">
+                <h3><a href="https://github.com/xalex01x/AllDayDrift" target="_blank" rel="noopener">AllDayDrift</a>
+                </h3>
+                <div class="meta">Linguaggio: JavaScript</div>
+            </article>
+
+            <article class="repo">
+                <h3><a href="https://github.com/xalex01x/FastTransport" target="_blank" rel="noopener">FastTransport</a>
+                </h3>
+                <div class="meta">Linguaggio: Java</div>
+            </article>
+
+            <article class="repo">
+                <h3><a href="https://github.com/xalex01x/EscapeRoom" target="_blank" rel="noopener">EscapeRoom</a></h3>
+                <div class="meta">Linguaggio: C</div>
+            </article>
+
+            <article class="repo">
+                <h3><a href="https://github.com/xalex01x/BrickBot" target="_blank" rel="noopener">BrickBot</a></h3>
+                <div class="meta">Linguaggio: JavaScript</div>
+            </article>
+
+            <article class="repo">
+                <h3><a href="https://github.com/xalex01x/dispense" target="_blank" rel="noopener">Dispense</a></h3>
+                <div class="meta">Dispense scritte durante il mio percorso in UniPi
+                </div>
+            </article>
+        </section>
+    </main>
+</body>
+
+</html>
